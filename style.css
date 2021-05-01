@@ -1,5 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 *
 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+.leftlogo {
+    font-family: 'Mrs Saint Delafield', cursive;
+    color: rgb(196, 164, 164);
+    position: absolute;
+    top: 20px; left: 20px;
+}
+
+p {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/bg.png);
+    background-size: cover;
+}
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2 {
+    font-size: 5em;
+    color: #fff;
+}
+
+.banner .content p {
+    font-size: 1em;
+    color:rgb(196, 164, 164);
+}
+
+.btn {
+    font-size: 1em;
+    color: #fff;
+    background: #db0e53;
+    display: inline-block;
+    padding: 8px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 5px;
+}
+
+.header {
+    position: fixed;
+    float: left;
+    width: 100%;
+    padding: 20px 20px;
+    z-index: 10000;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    transition: 0.5s;
+}
+.header .navigation {
+    position: relative;
+    display: flex;
+}
+
+.header .navigation li {
+    list-style: none;
+    margin-left: 10px;
 }
