@@ -57,7 +57,7 @@ p {
 .btn:hover {
     letter-spacing: 5px;
 }
-
+/* navigation styling */
 .header {
     position: fixed;
     float: left;
@@ -68,13 +68,38 @@ p {
     justify-content: flex-end;
     text-align: center;
     transition: 0.5s;
+    background-color: #ffffff2f;
 }
 .header .navigation {
     position: relative;
     display: flex;
 }
-
+/* beginning of glass morphism styling */
 .header .navigation li {
     list-style: none;
     margin-left: 10px;
+    box-shadow: 0 0 15px -6px #424242;
 }
+
+ul li a {
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+    position: relative;
+}
+
+ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 43%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+ul li a:hover::before {
+    background-color: #fff;
+}
+/* ending of glass morphism styling */
