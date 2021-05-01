@@ -41,6 +41,7 @@ p {
     color:rgb(196, 164, 164);
 }
 
+/* begin styling and animation for 'services' button */
 .btn {
     font-size: 1em;
     color: #fff;
@@ -57,6 +58,8 @@ p {
 .btn:hover {
     letter-spacing: 5px;
 }
+/* end styling and animation for 'services' button */
+
 /* navigation styling */
 .header {
     position: fixed;
