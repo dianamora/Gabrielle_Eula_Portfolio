@@ -14,9 +14,15 @@
 }
 
 p {
-    font-weight: 300;
+    font-weight: 500;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
+
+body {
+    min-height: 1000px;
+}
+
 .banner {
     position: relative;
     width: 100%;
@@ -73,6 +79,7 @@ p {
     transition: 0.5s;
     background-color: #ffffff2f;
 }
+
 .header .navigation {
     position: relative;
     display: flex;
@@ -106,3 +113,34 @@ ul li a:hover::before {
     background-color: #fff;
 }
 /* ending of glass morphism styling */
+
+/* start of about me section */
+section {
+   padding: 100px;
+}
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50 {
+    position: relative;
+    width: 48%;
+}
+
+section p {
+    color: #000;
+    font-weight: 200;
+    text-align: left;
+}
+
+.titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+/* end of about me section */
+
+
