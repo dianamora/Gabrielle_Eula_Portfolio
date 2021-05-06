@@ -232,7 +232,7 @@ section p {
 .testimonials .content .box {
     width: 340px;
     margin: 20px;
-    padding: 40px;
+    padding: 20px;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -241,8 +241,8 @@ section p {
 }
 .testimonials .content .box .imgBx {
     position: relative;
-    width: 80px; 
-    height: 80px;
+    width: 90px; 
+    height: 90px;
     margin-bottom: 20px;
     border-radius: 50%;
     overflow: hidden;
@@ -258,10 +258,22 @@ section p {
 .testimonials .content .box .text p {
     padding: 15px 0 5px;
     color: #000;
+    font-style: initial;
+    font-size: smaller;
+    text-align: center;
 }
 .testimonials .content .box .text h3 {
-    font-weight: 400;
+    margin-top: 10px;
+    font-weight: 600;
     color: #db0e53; 
+    font-size: 1em;
     text-align: center;
 }
 /* end testimonials section */
+
+/* begin contact me section */
+.contact {
+    background: url(images/bg2.jpeg);
+    background-size: cover;
+}
+/* end contact me section */
