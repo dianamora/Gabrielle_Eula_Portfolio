@@ -350,14 +350,16 @@ section p {
         width: 100%;
         height: calc(100%-68px);
         position: fixed;
-        top: 68;
+        top: 68px;
         left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background: rgb(66, 64, 64);
+        opacity: 80%;
     }
+    
     header .navigation. li {
         margin-left: 0;
     }
