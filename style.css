@@ -362,7 +362,7 @@ section p {
         background-repeat: no-repeat;
         background-position: center;
     }
-    header.sticky .menuToggle {
+    /* header.sticky .menuToggle {
         filter: invert(1);
-    }
+    } */
 }
