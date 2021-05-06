@@ -69,7 +69,7 @@ body {
 /* end styling and animation for 'services' button */
 
 /* navigation styling */
-.header {
+header {
     position: fixed;
     float: left;
     width: 100%;
@@ -82,12 +82,12 @@ body {
     background-color: #ffffff2f;
 }
 
-.header .navigation {
+header .navigation {
     position: relative;
     display: flex;
 }
 /* beginning of glass morphism styling */
-.header .navigation li {
+header .navigation li {
     list-style: none;
     margin-left: 10px;
     box-shadow: 0 0 15px -6px #424242;
@@ -379,7 +379,7 @@ section p {
     }
     .menuToggle.active {
         background: url(images/close.png);
-        background-size: 25px;
+        background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
     }
